@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo da página */
+body {
+  background-color: #f9f9f9; /* Fundo branco */
+  color: #333; /* Texto preto */
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ffccdd; /* Rosa claro */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #74e4e4; /* Verde água */
+}
+
+header h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+  margin: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6699; /* Efeito hover rosa mais escuro */
+}
+
+/* Seções */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #80d4d4; /* Verde água */
+}
+
+section ul {
+  list-style-type: square;
+  margin: 20px 0;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+section h3 {
+  color: #ff6699;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+section p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
